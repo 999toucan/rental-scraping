@@ -1,24 +1,22 @@
-Here is the **Markdown you can paste directly into `README.md`**.
 
-```markdown
 # Rental Data Pipeline
 
-This project scrapes rental listings from multiple sources, cleans and merges the datasets, extracts structured features, and optionally uses AI to fill missing information.
+This project scrapes rental listings, cleans and merges the datasets, extracts structured features, and optionally uses AI to fill missing information.
 
 ---
 
-### Craigslist Scraper
+## Craigslist Web Scraper
 
 ```bash
-python3 -m web_scraping.craigslist.craigslist_search_url y
-python3 -m web_scraping.craigslist.request_to_csv y
+python3 -m web_scraping.craigslist.craigslist_search_url
+python3 -m web_scraping.craigslist.request_to_csv
 ```
 
 These scripts generate raw CSV files inside the `data/` directory.
 
 ---
 
-# 2. Run the Data Transformation Pipeline
+# Run the Data Transformation Pipeline
 
 ## Data Locations
 
@@ -51,7 +49,7 @@ This will:
 
 ---
 
-# 3. Run With AI Enrichment (Optional)
+# Run With AI Enrichment
 
 AI can fill missing structured features (beds, sqft, laundry, pets policy) when regex extraction fails.
 
