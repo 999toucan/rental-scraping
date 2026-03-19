@@ -1,0 +1,9 @@
+.env
+.idea
+web_scraping/craigslist/data
+web_scraping/craigslist/__pycache__
+web_scraping/__pycache__
+helpers/__pycache__/craigslist_helpers.cpython-310.pyc
+helpers/__pycache__/craigslist_helpers.cpython-310.pyc
+data_transform/data
+data_transform/pipeline/__pycache__
